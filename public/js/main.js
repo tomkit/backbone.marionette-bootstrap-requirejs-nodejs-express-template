@@ -1,7 +1,10 @@
 requirejs.config({
     baseUrl : 'js',
     paths : {
-        views : 'views'
+        views : 'views',
+        collections : 'collections',
+        models : 'models'
+         
     }
 });
 

@@ -1,4 +1,4 @@
-define(function() {
+define(['views/bodyview'],function(BodyView) {
     var Router = Backbone.Router.extend({
         routes : {
             '' : 'loadMain',
@@ -8,12 +8,13 @@ define(function() {
         },
         
         initialize : function() {
-            console.log('initialize');
+            console.log('router');
             _.bindAll(this, 'loadMain');
         },
         
         loadMain : function() {
             console.log('loadMain');
+            new BodyView(); 
         }
     });
     
