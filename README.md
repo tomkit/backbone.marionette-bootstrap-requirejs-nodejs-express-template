@@ -9,7 +9,6 @@ Boilerplate for starting a new node.js project with the following frameworks:
 <br>
 -Express
 <br>
-<br>
 ##Up and Running
 
 -git clone git@github.com:tomkit/backbone.marionette-bootstrap-requirejs-nodejs-express-template.git mynewrepo
